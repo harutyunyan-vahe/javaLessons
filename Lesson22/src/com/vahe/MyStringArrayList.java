@@ -54,4 +54,8 @@ public class MyStringArrayList {
         this.data[index-1] = null;
         this.index--;
     }
+
+    public static void main(String[] args) {
+        System.out.println(System.currentTimeMillis());
+    }
 }

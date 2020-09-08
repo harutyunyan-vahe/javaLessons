@@ -12,7 +12,7 @@ public class MyMain2 {
         myStringArrayList.add("hayk");
 
 
-        myStringArrayList.index++;
+        //myStringArrayList.index++;
 
         myStringArrayList.remove(1);
         for (int i = 0; i < myStringArrayList.size(); i++) {
