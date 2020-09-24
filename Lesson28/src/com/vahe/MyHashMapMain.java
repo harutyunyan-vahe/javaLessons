@@ -2,8 +2,6 @@ package com.vahe;
 
 
 import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Vector;
 
 public class MyHashMapMain {
 
