@@ -11,13 +11,13 @@ public class VoletailTest {
     instructions in the code. However, a memory value can be changed by another
     thread!*/
 
-    private boolean done;
+    private volatile boolean done;
 
-    public synchronized boolean isDone() {
+    public /*synchronized*/ boolean isDone() {
         return done;
     }
 
-    public synchronized void setDone() {
+    public /*synchronized*/ void setDone() {
         done = true;
     }
 }
