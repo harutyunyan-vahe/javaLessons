@@ -16,11 +16,11 @@ public class Circle {
         this.radius = radius;
     }
 
-    public double getArea(double radius){
+    public double getArea(){
         return  PI * this.radius * this.radius;
     }
 
-    public double getPerimeter(double radius){
+    public double getPerimeter(){
         return this.radius * PI * 2;
     }
 }
